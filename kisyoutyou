@@ -13,13 +13,8 @@
 </thead><tbody>
 <tr>
 	<td>store</td>
-	<td>1990</td>
+	<td>1994</td>
 	<td>i</td>
-</tr>
-<tr>
-	<td>while</td>
-	<td>storedVars.i++ &lt; 2000</td>
-	<td></td>
 </tr>
 <tr>
 	<td>open</td>
@@ -33,7 +28,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>xpath=(//*[@id=&quot;stationMap&quot;]/div[9]/div)</td>
+	<td>xpath=(//*[@id=&quot;stationMap&quot;]/div[15]/div)</td>
 	<td></td>
 </tr>
 <tr>
@@ -47,6 +42,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>while</td>
+	<td>storedVars.i++ &lt; 2014</td>
+	<td></td>
+</tr>
+<tr>
 	<td>select</td>
 	<td>name=iniy</td>
 	<td>label=${i}</td>
@@ -57,13 +57,68 @@
 	<td>label=${i}</td>
 </tr>
 <tr>
-	<td>endWhile</td>
-	<td></td>
-	<td></td>
+	<td>select</td>
+	<td>name=inim</td>
+	<td>label=1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=endm</td>
+	<td>label=4</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=endd</td>
+	<td>label=30</td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>css=#csvdl &gt; img.rollover</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=inim</td>
+	<td>label=5</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=endm</td>
+	<td>label=8</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=endd</td>
+	<td>label=31</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#csvdl &gt; img.rollover</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=inim</td>
+	<td>label=9</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=endm</td>
+	<td>label=12</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=endd</td>
+	<td>label=31</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#csvdl &gt; img.rollover</td>
+	<td></td>
+</tr>
+<tr>
+	<td>endWhile</td>
+	<td></td>
 	<td></td>
 </tr>
 </tbody></table>
