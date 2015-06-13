@@ -61,7 +61,7 @@ class Test(unittest.TestCase):
                     time.sleep(t)
                     driver.find_element_by_css_selector("#csvdl > img.rollover").click()
                     time.sleep(t)
-                time.sleep(t*10)
+                time.sleep(t*4)
 
     def is_element_present(self, how, what):
         try: self.driver.find_element(by=how, value=what)
