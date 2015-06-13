@@ -58,22 +58,7 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>id=降水量</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
 	<td>id=日照時間</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=日照時間</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=風向・風速</td>
 	<td></td>
 </tr>
 <tr>
@@ -88,32 +73,12 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>id=全天日射量</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=現地気圧</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
 	<td>id=現地気圧</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>id=相対湿度</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=相対湿度</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>id=蒸気圧</td>
 	<td></td>
 </tr>
 <tr>
@@ -133,32 +98,12 @@
 </tr>
 <tr>
 	<td>select</td>
-	<td>name=iniy</td>
-	<td>label=1994</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endy</td>
-	<td>label=1994</td>
-</tr>
-<tr>
-	<td>select</td>
 	<td>name=endy</td>
 	<td>label=1994</td>
 </tr>
 <tr>
 	<td>select</td>
 	<td>name=endm</td>
-	<td>label=2</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=2</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endd</td>
 	<td>label=2</td>
 </tr>
 <tr>
@@ -174,16 +119,6 @@
 <tr>
 	<td>select</td>
 	<td>name=inim</td>
-	<td>label=2</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=2</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inid</td>
 	<td>label=2</td>
 </tr>
 <tr>
@@ -198,16 +133,6 @@
 </tr>
 <tr>
 	<td>select</td>
-	<td>name=endm</td>
-	<td>label=3</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endd</td>
-	<td>label=1</td>
-</tr>
-<tr>
-	<td>select</td>
 	<td>name=endd</td>
 	<td>label=1</td>
 </tr>
@@ -216,232 +141,6 @@
 	<td>css=#csvdl &gt; img.rollover</td>
 	<td></td>
 </tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=3</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=3</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=4</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=4</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=#csvdl &gt; img.rollover</td>
-	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=4</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=4</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=5</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=5</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=#csvdl &gt; img.rollover</td>
-	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=6</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=6</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=7</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=7</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=#csvdl &gt; img.rollover</td>
-	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=7</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=7</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=8</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=8</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=#csvdl &gt; img.rollover</td>
-	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=8</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=8</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=9</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=9</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=#csvdl &gt; img.rollover</td>
-	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=9</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=9</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=10</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=10</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=#csvdl &gt; img.rollover</td>
-	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=10</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=10</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=11</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=11</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=#csvdl &gt; img.rollover</td>
-	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=11</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=11</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=12</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endm</td>
-	<td>label=12</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=#csvdl &gt; img.rollover</td>
-	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=12</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=inim</td>
-	<td>label=12</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endd</td>
-	<td>label=31</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=endd</td>
-	<td>label=31</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>css=#csvdl &gt; img.rollover</td>
-	<td></td>
-</tr>
-
 </tbody></table>
 </body>
 </html>
