@@ -19,7 +19,37 @@
 <tr>
 	<td>store</td>
 	<td>1994</td>
-	<td>i</td>
+	<td>y</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>-1</td>
+	<td>m</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>0</td>
+	<td>tmp</td>
+</tr>
+<tr>
+	<td>getEval</td>
+	<td>startm = [1,2,3,4,5,6,7,8,9,10,11,12]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>getEval</td>
+	<td>startd = [1,2,2,2,2,2,2,2,2,2,2,2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>getEval</td>
+	<td>finishm = [2,3,4,5,6,7,8,9,10,11,12,12]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>getEval</td>
+	<td>finishd = [1,1,1,1,1,1,1,1,1,1,1,31]</td>
+	<td></td>
 </tr>
 <tr>
 	<td>click</td>
@@ -93,42 +123,52 @@
 </tr>
 <tr>
 	<td>while</td>
-	<td>storedVars.i++ &lt; 2015</td>
+	<td>storedVars.y++ &lt; 2015</td>
+	<td></td>
+</tr>
+<tr>
+	<td>while</td>
+	<td>storedVars.m++ &lt; 12</td>
 	<td></td>
 </tr>
 <tr>
 	<td>select</td>
 	<td>name=iniy</td>
-	<td>label=${i}</td>
+	<td>label=${y}</td>
 </tr>
 <tr>
-	<td>select</td>
+	<td>storeEval</td>
 	<td>name=endy</td>
-	<td>label=${i}</td>
+	<td>label=${y}</td>
 </tr>
 <tr>
 	<td>select</td>
 	<td>name=inim</td>
-	<td>label=1</td>
+	<td>label=javascript{startm[m]}</td>
 </tr>
 <tr>
 	<td>select</td>
 	<td>name=inid</td>
-	<td>label=1</td>
+	<td>label=javascript{startd[m]}</td>
 </tr>
 <tr>
 	<td>select</td>
 	<td>name=endm</td>
-	<td>label=2</td>
+	<td>label=${finishm[{$m}]}</td>
 </tr>
 <tr>
 	<td>select</td>
 	<td>name=endd</td>
-	<td>label=1</td>
+	<td>label=${finishd[{$m}]}</td>
 </tr>
 <tr>
 	<td>click</td>
 	<td>css=#csvdl &gt; img.rollover</td>
+	<td></td>
+</tr>
+<tr>
+	<td>endWhile</td>
+	<td></td>
 	<td></td>
 </tr>
 <tr>
