@@ -6,6 +6,6 @@ do
         mv data.csv "d${time}.csv"
     fi
     echo "hello"
-    sleep 1s
+    sleep 0.5s
 done
 
