@@ -26,6 +26,7 @@ class Test(unittest.TestCase):
 
         driver = self.driver
         for p in range(0,len(prefectures)):
+            print(str(p)+"start")
             driver.get(self.base_url + "/gmd/risk/obsdl/index.php#")
             time.sleep(t)
 
